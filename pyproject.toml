@@ -1,0 +1,14 @@
+[project]
+name = "llm-application"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "docx2txt>=0.9",
+    "langchain-chroma>=0.2.6",
+    "langchain-community>=0.3.31",
+    "langchain-text-splitters>=0.3.11",
+    "langchain-upstage>=0.7.4",
+    "python-dotenv>=1.2.1",
+]
