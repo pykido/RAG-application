@@ -1,6 +1,8 @@
-# My Python Project
+# My RAG Project
 
-이 프로젝트는 uv를 사용하여 Python 환경을 관리합니다. uv는 빠르고 효율적인 Python 패키지 관리 도구로, venv와 pip의 대안입니다.
+이 프로젝트는 uv를 사용하여 Python 환경을 관리합니다. 
+
+LangChain을 이용한 간단한 법령 정보 RAG 어플리케이션입니다.
 
 ## 전제 조건
 - Python 3.11 이상 설치됨.
@@ -19,8 +21,8 @@ bashbrew install uv
 
 ### 1. GitHub 리포지토리 클론:
 ```bash
-git clone https://github.com/yourusername/my-project.git
-cd my-project
+git clone https://github.com/sjmoon00/RAG-application.git
+cd RAG-application
 ```
 
 ### 2. 의존성 설치 및 환경 동기화:
