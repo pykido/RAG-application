@@ -33,3 +33,9 @@ uv sync
 ```
 
 ### 3. 노트북 실행
+주피터 노트북  실행
+
+### 3.1 챗봇 실행
+```bash
+streamlit run src/chat.py
+```

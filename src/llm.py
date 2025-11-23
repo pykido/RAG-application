@@ -26,7 +26,7 @@ def get_session_history(session_id: str) -> BaseChatMessageHistory:
 
 def get_retriever():
     embedding = UpstageEmbeddings(model='solar-embedding-1-large')
-    database = Chroma(collection_name='chroma-tax', persist_directory="./chroma", embedding_function=embedding)
+    database = Chroma(collection_name='chroma-tax', persist_directory="../chroma", embedding_function=embedding)
     retriever = database.as_retriever(search_kwargs={'k': 4})
     return retriever
 
